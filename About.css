@@ -1,0 +1,264 @@
+:root {
+    --primary-gold: #D4AF37;
+    /* Pillars Gold */
+    --primary-blue: #0A2647;
+    /* Deep Blue */
+    --accent-red: #800000;
+    /* Deep Red */
+    --bg-light: #f8f9fa;
+    --primary-color: #0f172a;
+    --accent-color: #3b82f6;
+    --light-bg: #f8fafc;
+    --text-muted: #64748b;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #444;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+/* --- Navbar --- */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    transition: 0.4s;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000 !important;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+/* --- Banner --- */
+.about-banner {
+    background: linear-gradient(rgba(10, 38, 71, 0.8), rgba(0, 0, 0, 0.7)), url('pics/living_faith_abeokuta_building.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.about-banner h1 {
+
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/* --- Team Section --- */
+.team-card {
+    border: none;
+    background: transparent;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team-img-container {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 1.5rem auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.team-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.team-card:hover .team-img-container img {
+    transform: scale(1.1);
+}
+
+.team-role {
+    color: var(--accent-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+.btn-bio {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+}
+
+
+/* MANDATE AND MISSION */
+/* --- Centered Text Sections (Mandate/Mission) --- */
+.centered-text-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.centered-text-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    margin-bottom: 20px;
+
+}
+
+.mandate-divider {
+    width: 100px;
+    height: 4px;
+    background-color: #C0392B;
+    margin: 0 auto 30px;
+}
+
+/* --- 12 Pillars Grid --- */
+.pillar-section {
+    background-color: var(--bg-light);
+    padding: 80px 0;
+}
+
+.pillar-card {
+    background: white;
+    border: none;
+    height: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+    border-top: 4px solid #C0392B;
+    display: flex;
+    flex-direction: column;
+}
+
+.pillar-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.pillar-icon {
+    font-size: 2rem;
+    color: #C0392B;
+    margin-bottom: 15px;
+}
+
+.pillar-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--primary-blue);
+}
+
+.pillar-desc {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.pillar-verse {
+    margin-top: auto;
+    /* Push verse to bottom */
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #666;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+/* --- Footer Container --- */
+.main-footer {
+    /* Background Image with Dark Overlay for readability */
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(20, 30, 50, 0.9)), url('pics/living_faith_abeokuta_building.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Parallax effect */
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- Typography --- */
+.footer-heading {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    color: #C0392B;
+    /* Gold for headings */
+}
+
+.footer-link {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-link:hover {
+    color: #fff;
+    padding-left: 5px;
+    /* Slight slide effect */
+}
+
+/* --- Social Media Icons --- */
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background: #C0392B;
+    /* Gold on hover */
+    color: #000;
+    border-color: #C0392B;
+    transform: translateY(-3px);
+}
+
+/* --- Bottom Copyright Bar --- */
+.copyright-bar {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+
+/* about church and pastor */

@@ -1,0 +1,222 @@
+/* --- Navbar --- */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    transition: 0.4s;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000 !important;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+/* banner */
+.hero-section {
+    background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), url('https://images.unsplash.com/photo-1507692049790-de58290a4334');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: var(--primary-blue);
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-submit {
+    background-color: var(--primary-gold);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #b4942b;
+    transform: translateY(-2px);
+}
+
+/* Testimony Cards */
+.testimony-card {
+    background: white;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimony-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+/* Text Truncation for Preview */
+.story-preview {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.badge-healing {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.badge-provision {
+    background-color: #fff3cd;
+    color: #664d03;
+}
+
+.badge-family {
+    background-color: #cff4fc;
+    color: #055160;
+}
+
+.badge-salvation {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.badge-miracle {
+    background-color: #e2e3e5;
+    color: #41464b;
+}
+
+/* Form Styling */
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.btn-submit {
+    background-color: var(--primary-purple);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #380b63;
+    color: white;
+}
+
+/* Floating Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.new-item {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+
+
+/* --- Footer Container --- */
+.main-footer {
+    /* Background Image with Dark Overlay for readability */
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(20, 30, 50, 0.9)), url('pics/living_faith_abeokuta_building.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Parallax effect */
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- Typography --- */
+.footer-heading {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    color: #C0392B;
+    /* Gold for headings */
+}
+
+.footer-link {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-link:hover {
+    color: #fff;
+    padding-left: 5px;
+    /* Slight slide effect */
+}
+
+/* --- Social Media Icons --- */
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background: #C0392B;
+    /* Gold on hover */
+    color: #000;
+    border-color: #C0392B;
+    transform: translateY(-3px);
+}
+
+/* --- Bottom Copyright Bar --- */
+.copyright-bar {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+}

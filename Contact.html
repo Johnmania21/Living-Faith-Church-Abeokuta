@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Contact.css">
+</head>
+
+<body>
+
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#" style="color: #222;">
+                <img src="pics/logo.jpg" alt="Logo" width="50" height="40" class="me-2">
+                <h5 class="mt-2 display-7"><span class="text-danger">LFC Abeokuta</span></h5>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav mx mb-2 mb-lg-0 ">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="church-report.html">Testimonies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <!-- Hero Banner -->
+    <header class="contact-hero">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Get in Touch</h1>
+            <p class="lead">We would love to hear from you or see you at a service.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <div class="row g-5">
+
+            <!-- LEFT COLUMN: Info & Map -->
+            <div class="col-lg-5">
+
+                <!-- Contact Info Cards -->
+                <div class="row g-3 mb-4">
+                    <div class="col-md-6 col-6">
+                        <div class="info-card">
+                            <i class="bi bi-geo-alt-fill icon-box"></i>
+                            <h6 class="fw-bold mb-1">Visit Us</h6>
+                            <small class="text-muted">#26 Quarry Rd., Ibara, Abeokuta, Ogun
+                                State, Nigeria</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-6">
+                        <div class="info-card">
+                            <i class="bi bi-envelope-fill icon-box"></i>
+                            <h6 class="fw-bold mb-1">Email Us</h6>
+                            <small class="text-muted">lfcwwabeokuta@yahoo.com</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-6">
+                        <div class="info-card">
+                            <i class="bi bi-telephone-fill icon-box"></i>
+                            <h6 class="fw-bold mb-1">Call Us</h6>
+                            <small class="text-muted">07017486053, 09151613239, 09065754931</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-6">
+                        <div class="info-card" style="border-bottom-color: var(--accent-gold);">
+                            <i class="bi bi-bus-front-fill icon-box" style="color: var(--accent-gold);"></i>
+                            <h6 class="fw-bold mb-1">Free Shuttle</h6>
+                            <small class="text-muted">Request a ride<br>to church</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map Placeholder -->
+                <div class="map-container">
+                    <!-- Using a generic Google Maps embed placeholder -->
+                    <!-- <iframe src="https://maps.google.com/maps?q=Abeokuta&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe> -->
+                    <!-- Google Maps Iframe centered on Abeokuta, Ogun State -->
+                    <iframe src="https://maps.google.com/maps?q=Abeokuta&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                    <p class="text-center small text-muted mt-2"><i class="bi bi-map"></i> View larger map on Google
+                        Maps</p>
+                </div>
+
+                <!-- Transport Note -->
+                <div class="alert alert-info mt-4" role="alert">
+                    <i class="bi bi-info-circle-fill me-2"></i>
+                    <strong>Note:</strong> Our free transportation service covers areas within 10km of the church.
+                </div>
+
+            </div>
+
+            <!-- RIGHT COLUMN: Forms -->
+            <div class="col-lg-7">
+                <div class="form-container">
+
+                    <!-- Tabs -->
+                    <ul class="nav nav-tabs mb-4" id="contactTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="msg-tab" data-bs-toggle="tab"
+                                data-bs-target="#message-tab-pane" type="button">
+                                Send a Message
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="transport-tab" data-bs-toggle="tab"
+                                data-bs-target="#transport-tab-pane" type="button">
+                                <i class="bi bi-bus-front me-2"></i> Request Free Ride
+                            </button>
+                        </li>
+                    </ul>
+
+                    <!-- Tab Content -->
+                    <div class="tab-content" id="contactTabsContent">
+
+                        <!-- TAB 1: General Message -->
+                        <div class="tab-pane fade show active" id="message-tab-pane" role="tabpanel">
+                            <form id="contactForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Full Name</label>
+                                        <input type="text" class="form-control" placeholder="John Doe" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" placeholder="john@example.com"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Subject</label>
+                                    <select class="form-select">
+                                        <option>Prayer Request</option>
+                                        <option>General Inquiry</option>
+                                        <option>Membership Info</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Message</label>
+                                    <textarea class="form-control" rows="5" placeholder="How can we help you?"
+                                        required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-submit w-100">Send Message</button>
+                            </form>
+                        </div>
+
+                        <!-- TAB 2: Free Transportation Form -->
+                        <div class="tab-pane fade" id="transport-tab-pane" role="tabpanel">
+                            <div class="alert alert-warning">
+                                <i class="bi bi-calendar-event me-2"></i>
+                                Please book your ride at least 24 hours before the service.
+                            </div>
+                            <form id="transportForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Full Name</label>
+                                        <input type="text" class="form-control" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Phone Number</label>
+                                        <input type="tel" class="form-control" placeholder="Required for driver"
+                                            required>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Pickup Address</label>
+                                    <input type="text" class="form-control" placeholder="Enter full address" required>
+                                    <small class="text-muted">Include landmarks if possible.</small>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Service</label>
+                                        <select class="form-select" required>
+                                            <option value="" selected disabled>Choose Service...</option>
+                                            <option>Sunday 1st Sitting (7:00 AM)</option>
+                                            <option>Sunday 2nd Sitting (9:00 AM)</option>
+                                            <option>Wednesday Mid-week (5:00 PM)</option>
+                                            <option>WSF (5:00 PM)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Number of Seats</label>
+                                        <input type="number" class="form-control" min="1" max="5" value="1" required>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="smsCheck" required>
+                                        <label class="form-check-label" for="smsCheck">
+                                            I agree to receive a confirmation SMS/Call from the driver.
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-transport w-100">Request Free Ride</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content text-center p-4">
+                <div class="modal-body">
+                    <i class="bi bi-check-circle-fill text-success display-1"></i>
+                    <h5 class="fw-bold mt-3">Request Sent!</h5>
+                    <p class="text-muted" id="modalMessage">We have received your request.</p>
+                    <button type="button" class="btn btn-outline-success w-100 mt-3"
+                        data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- FOOTER START -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+
+                <!-- Column 1: About Church -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Living Faith Church Abeokuta</h5>
+                    <p class="mb-4">Raising a generation of believers who understand their kingdom identity. Join us as
+                        we
+                        impact the world with the Gospel.</p>
+                    <div class="d-flex">
+                        <span class="me-3"><i class="bi bi-geo-alt-fill"></i> #26 Quarry Rd., Ibara, Abeokuta, Ogun
+                            State, Nigeria</span>
+                        <span><i class="bi bi-envelope-fill"></i> lfcwwabeokuta@yahoo.com</span>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <a href="index.html" class="footer-link"><i class="bi bi-chevron-right small me-2"></i> Home</a>
+                    <a href="About.html" class="footer-link"><i class="bi bi-chevron-right small me-2"></i> About Us</a>
+                    <a href="church-report.html" class="footer-link"><i class="bi bi-chevron-right small me-2"></i>
+                        Testimony</a>
+                    <a href="Contact.html" class="footer-link"><i class="bi bi-chevron-right small me-2"></i>
+                        Contact</a>
+                </div>
+
+                <!-- Column 3: Service Times -->
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Services</h5>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="mb-2">
+                            <strong>Sundays:</strong><br>
+                            <small>7:00 AM & 9:00 AM</small>
+                        </li>
+                        <li class="mb-2">
+                            <strong>Wednesdays:</strong><br>
+                            <small>5:00 PM (Communion)</small>
+                        </li>
+                        <li>
+                            <strong>Saturday:</strong><br>
+                            <small>5:00 PM (WSF)</small>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Social Media (Key Feature) -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Connect With Us</h5>
+                    <p class="mb-3 text-secondary">Follow us on social media for daily updates and inspiration.</p>
+
+                    <!-- Social Icons -->
+                    <div class="mb-4">
+                        <a href="https://web.facebook.com/lfcabeokuta/#" class="social-icon" title="Facebook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/lfcabeokuta_/" class="social-icon" title="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://x.com/winnersabk" class="social-icon" title="Twitter / X">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@LFCABEOKUTA" class="social-icon" title="YouTube">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@lfcabeokuta_/" class="social-icon" title="Tiktok">
+                            <i class="bi bi-tiktok"></i>
+                        </a>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <h6 class="text-uppercase mb-3">Subscribe</h6>
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Email Address" aria-label="Email">
+                        <button class="btn btn-danger fw-bold" type="submit">Join</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <!-- Copyright Bar -->
+            <div class="copyright-bar">
+                <div class="container">
+                    <p class="mb-0">&copy; 2026 Living Faith Church. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <script src="About.js"></script>
+
+
+
+
+
+</body>
+
+</html>

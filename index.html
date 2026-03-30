@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#" style="color: #222;">
+                <img src="pics/logo.jpg" alt="Logo" width="50" height="40" class="me-2">
+                <h5 class="mt-2 display-7"><span class="text-danger">LFC Abeokuta</span></h5>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="church-report.html">Testimonies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="" style="text-decoration: none; list-style: none;">
+
+                    <!-- GIVE BUTTON AT THE END -->
+                    <li class="nav-item">
+                        <a class="btn btn-give" href="#give">
+                            <i class="bi bi-gift-fill me-2"></i> Give Online
+                        </a>
+                    </li>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+
+
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1 style="font-size: 30px;">WELCOME TO LIVING FAITH CHURCH ABEOKUTA</h1>
+            <p>HOME OF SIGNS AND WONDERS</p>
+            <div class="hero-btns d-flex justify-content-center gap-3">
+                <a href="#visit" class="btn btn-light btn-lg px-4 fw-bold rounded-pill">Plan a Visit</a>
+                <a href="#sermons" class="btn btn-outline-light btn-lg px-4 fw-bold rounded-pill">Watch Live</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Next Service Countdown -->
+    <div class="container">
+        <div class="row countdown-section align-items-center">
+            <div class="col-md-4 mb-4 mb-md-0 text-center text-md-start ps-md-5">
+                <h4 class="fw-bold mb-1">Next Service Starts In:</h4>
+                <p class="text-muted mb-0">Join us this Sunday at 7:00 AM</p>
+            </div>
+            <div class="col-md-8">
+                <div class="row" id="countdown">
+                    <div class="col-3 countdown-box"><span class="countdown-num" id="days">00</span><small
+                            class="d-block text-muted">Days</small></div>
+                    <div class="col-3 countdown-box"><span class="countdown-num" id="hours">00</span><small
+                            class="d-block text-muted">Hours</small></div>
+                    <div class="col-3 countdown-box"><span class="countdown-num" id="minutes">00</span><small
+                            class="d-block text-muted">Mins</small></div>
+                    <div class="col-3 countdown-box"><span class="countdown-num" id="seconds">00</span><small
+                            class="d-block text-muted">Secs</small></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ABOUT / PASTOR'S NOTE (Supporting Content) -->
+    <section id="sermons" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18"
+                        class="img-fluid rounded shadow-lg" alt="Pastor">
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <h5 class="text-uppercase text-danger fw-bold">FromThe State Pastor's Desk</h5>
+                    <h2 class="display-6 fw-bold mb-4">Experience His Presence</h2>
+                    <p class="lead">The bible says "They that walk with the wise shall be wise and the companion of
+                        fools shall be destroyed" (Prov 12:20).
+                        Your coming here today is an indication of wisdom and that you want to be a winner. When Saul
+                        found himself in the midst
+                        of Prophets, he began to prophesy (1 Sam 10:10). However, it takes an encounter with the word of
+                        God to win. Life
+                        without the word of God, the struggle continues. Coming once may not deliver to you the
+                        revelation and insight you need
+                        from the word of God. Constant and regular attendance will give you enough light that will
+                        transform your life from
+                        poverty, sickness, failure and frustration into the abundant life that Jesus promised you (John
+                        10:10). As you keep
+                        coming, the Lord will establish you in all that you do. The Lord bless you real good! we love
+                        you. Peace!</p>
+                    <p>Come and see God do a new thing in your life this Sunday.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WEEKLY PROGRAM SECTION -->
+    <section id="weekly-program" class="weekly-program-section m-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold" style="font-family: 'Playfair Display', serif;">Weekly Programs</h2>
+                <p class="text-muted">Join us for any of our spiritual gatherings this week.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- 1. Sunday Service -->
+                <div class="col-md-4">
+                    <div class="program-card">
+                        <div class="program-icon text-primary">
+                            <i class="bi bi-sunrise"></i>
+                        </div>
+                        <h3 class="program-title">Sunday Service</h3>
+                        <p>Glory Celebration & Thanksgiving</p>
+                        <div class="program-time">7:00 AM & 9:05 AM</div>
+                        <p class="small text-muted">First and second sitting services.</p>
+                        <a href="#" class="btn btn-program">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- 2. Wednesday Mid-week Communion Service -->
+                <div class="col-md-4">
+                    <div class="program-card wednesday">
+                        <div class="program-icon" style="color: var(--accent-color);">
+                            <i class="bi bi-cup-straw"></i>
+                        </div>
+                        <h3 class="program-title">Wednesday</h3>
+                        <p>Mid-week Communion Service</p>
+                        <div class="program-time">5:00 PM</div>
+                        <p class="small text-muted">A time of spiritual renewal and sharing in the Lord's table.</p>
+                        <a href="#" class="btn btn-program">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- 3. WSF -->
+                <div class="col-md-4">
+                    <div class="program-card wsf">
+                        <div class="program-icon" style="color: var(--gold-color);">
+                            <i class="bi bi-fire"></i>
+                        </div>
+                        <h3 class="program-title">Saturday</h3>
+                        <p>Winners' Satellite Fellowship</p>
+                        <div class="program-time">5:00 PM</div>
+                        <p class="small text-muted">High praise, deep worship, and prophetic word.</p>
+                        <a href="#" class="btn btn-program">Learn More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Dark Mode Ministries Section -->
+    <section class="dark-ministries">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Service <span>Squad</span></h2>
+                </div>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- 1. Carers' Department -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="ministry-card reveal-up">
+                        <div class="icon-wrapper">
+                            <div class="glow-effect"></div>
+                            <!-- <i class="fas fa-hands-holding-heart custom-icon"></i> -->
+                            <img src="pics/carl.svg" width="100px" height="50px">
+                        </div>
+                        <h3>Carers'</h3>
+                        <p>Dedicated to showing the love of Christ by visiting the sick, supporting the elderly, and
+                            comforting those in need within our local community.</p>
+                    </div>
+                </div>
+
+                <!-- 2. Soul-Winning Department -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="ministry-card reveal-up">
+                        <div class="icon-wrapper">
+                            <div class="glow-effect"></div>
+                            <!-- <i class="fas fa-bullhorn custom-icon"></i> -->
+                            <img src="pics/soul.svg" width="100px" height="50px">
+                        </div>
+                        <h3>Soul-Winning</h3>
+                        <p>Aggressive evangelism and outreach programs designed to reach the unsaved with the message of
+                            salvation and hope.</p>
+                    </div>
+                </div>
+
+                <!-- 3. Prayer Department -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="ministry-card reveal-up">
+                        <div class="icon-wrapper">
+                            <div class="glow-effect"></div>
+                            <!-- <i class="fas fa-praying-hands custom-icon"></i> -->
+                            <img src="pics/pray.svg" width="100px" height="50px">
+                        </div>
+                        <h3>Prayer</h3>
+                        <p>The spiritual engine room of the church. We intercede for nations, leaders, families, and
+                            spiritual breakthroughs.</p>
+                    </div>
+                </div>
+
+                <!-- 4. Follow-up Department -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="ministry-card reveal-up">
+                        <div class="icon-wrapper">
+                            <div class="glow-effect"></div>
+                            <!-- <i class="fas fa-user-check custom-icon"></i> -->
+                            <img src="pics/foll.svg" width="100px" height="50px">
+                        </div>
+                        <h3>Follow-up</h3>
+                        <p>Ensuring new believers are not left alone. We provide discipleship classes and mentorship to
+                            establish them in faith.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- WHY WE GIVE SECTION -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://images.unsplash.com/photo-1572917265703-6d531053e4c5"
+                        class="img-fluid rounded shadow-lg" alt="Giving">
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <h5 class="text-uppercase text-warning fw-bold">Our Philosophy</h5>
+                    <h2 class="display-5 fw-bold mb-4">Why We Give</h2>
+                    <p class="lead text-muted">Giving is an act of worship, not an obligation.</p>
+                    <p>We believe that giving expresses our gratitude to God for His provision and allows us to partner
+                        with
+                        Him in impacting lives. Every seed you sow helps us spread the Gospel, support the needy, and
+                        build
+                        God's kingdom.</p>
+                    <ul class="list-unstyled mt-4">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Tithes & Offerings
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHURCH ACCOUNT DETAILS SECTION -->
+    <!-- ACCOUNT DETAILS SECTION -->
+    <section id="giving" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="fw-bold mb-3" style="font-family: 'Playfair Display', serif;">Church Account Details</h2>
+                    <p class="lead">Support the work of the ministry through your bank transfer.</p>
+                    <p>Thank you for your faithfulness in giving. Your tithes, offerings, and sacrificial gifts help us
+                        reach the world with the Gospel.</p>
+
+                    <div class="alert alert-info mt-4">
+                        <i class="bi bi-info-circle-fill me-2"></i>
+                        Please use your <strong>Full Name</strong> as the narration/reference.
+                    </div>
+                </div>
+
+                <!-- Account Cards -->
+                <div class="col-lg-6">
+                    <div class="mb-4">
+                        <div class="account-card">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h6 class="fw-bold text-uppercase">General Tithe & Offering</h6>
+                                <span class="badge bg-primary text-white">Tithe</span>
+                            </div>
+                            <p class="text-muted small mb-1">Bank Name</p>
+                            <h6 class="fw-bold">Trust Bank Global</h6>
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <span class="acc-number" id="acc1">01234567890</span>
+                                <button class="btn btn-sm copy-btn" onclick="copyText('acc1', this)">
+                                    <i class="bi bi-clipboard"></i> Copy
+                                </button>
+
+                            </div>
+                            <p class="text-muted small mb-1">Account Name</p>
+                            <h6 class="fw-bold">Living Word Church Abeokuta</h6>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- THE NOTIFICATION POPUP -->
+    <div id="eventNotification">
+        <div class="card event-card">
+            <!-- Close Button -->
+            <div class="btn-close-custom" onclick="hideNotification()">
+                <i class="bi bi-x-lg"></i>
+            </div>
+
+            <!-- Event Image -->
+            <div class="event-image"
+                style="background-image: url('https://images.unsplash.com/photo-1542038784456-1ea8e935640e');">
+                <!-- 'Upcoming' Badge -->
+                <span class="badge bg-danger position-absolute top-0 start-0 m-3">Ongoing Event</span>
+            </div>
+
+            <!-- Event Details -->
+            <div class="card-body text-center pt-4">
+                <h4 class="fw-bold mb-2">21 Days Fasting And prayer</h4>
+
+                <!-- Date & Time -->
+                <div class="event-meta d-flex align-items-center justify-content-center gap-2">
+                    <span><i class="bi bi-calendar-event me-1"></i> 5th Jan to 25 Jan</span>
+                    <span>|</span>
+                    <span><i class="bi bi-clock-fill me-1"></i> 5:00 PM</span>
+                </div>
+
+                <!-- Text / Programming -->
+                <p class="text-muted small mb-4 mt-3">
+                    Join Us In This spiritual Execrise and Powerful Testimonies. Come Expecting A Shift!
+                </p>
+
+                <a href="#" class="btn btn-dark w-100 rounded-pill py-2 fw-bold">Add to Calendar</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="fw-bold mt-3">
+        <h5 class="text-center fst-italic">All Services Are Interperted In Yourba</h5>
+        <h1 class="text-center text-danger" style="font-size: 50px;">JESUS IS LORD</h1>
+
+    </div>
+
+
+    <!-- FOOTER START -->
+    <footer class="main-footer mt-5">
+        <div class="container">
+            <div class="row">
+
+                <!-- Column 1: About Church -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Living Faith Church Abeokuta</h5>
+                    <p class="mb-4">Raising a generation of believers who understand their kingdom identity. Join us as
+                        we
+                        impact the world with the Gospel.</p>
+                    <div class="d-flex">
+                        <span class="me-3"><i class="bi bi-geo-alt-fill"></i> #26 Quarry Rd., Ibara, Abeokuta, Ogun
+                            State, Nigeria</span>
+                        <span><i class="bi bi-envelope-fill"></i> lfcwwabeokuta@yahoo.com</span>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <a href="index.html" class="footer-link"><i class="bi bi-chevron-right small me-2"></i> Home</a>
+                    <a href="About.html" class="footer-link"><i class="bi bi-chevron-right small me-2"></i> About Us</a>
+                    <a href="church-report.html" class="footer-link"><i class="bi bi-chevron-right small me-2"></i>
+                        Testimonies</a>
+                    <a href="Contact.html" class="footer-link"><i class="bi bi-chevron-right small me-2"></i>
+                        Contact</a>
+                </div>
+
+                <!-- Column 3: Service Times -->
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Services</h5>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="mb-2">
+                            <strong>Sundays:</strong><br>
+                            <small>7:00 AM & 9:00 AM</small>
+                        </li>
+                        <li class="mb-2">
+                            <strong>Wednesdays:</strong><br>
+                            <small>5:00 PM (Communion)</small>
+                        </li>
+                        <li>
+                            <strong>Saturday:</strong><br>
+                            <small>5:00 PM (WSF)</small>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Social Media (Key Feature) -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Connect With Us</h5>
+                    <p class="mb-3 text-secondary">Follow us on social media for daily updates and inspiration.</p>
+                    <!-- Social Icons -->
+                    <div class="mb-4">
+                        <a href="https://web.facebook.com/lfcabeokuta/#" class="social-icon" title="Facebook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/lfcabeokuta_/" class="social-icon" title="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://x.com/winnersabk" class="social-icon" title="Twitter / X">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@LFCABEOKUTA" class="social-icon" title="YouTube">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@lfcabeokuta_/" class="social-icon" title="Tiktok">
+                            <i class="bi bi-tiktok"></i>
+                        </a>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <h6 class="text-uppercase mb-3">Subscribe</h6>
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Email Address" aria-label="Email">
+                        <button class="btn btn-danger fw-bold" type="submit">Join</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <!-- Copyright Bar -->
+            <div class="copyright-bar">
+                <div class="container">
+                    <p class="mb-0">&copy; 2026 Living Faith Church. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+
+
+
+</body>
+
+</html>
